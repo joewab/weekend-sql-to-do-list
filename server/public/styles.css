@@ -1,0 +1,38 @@
+body {
+    background-color: #2b5479;
+    padding: 2em;
+    color: aliceblue;
+}
+
+.light-text{
+    color: aliceblue;
+}
+
+.isDone{
+    background-color: #8bc34a;
+}
+
+
+.inputRow{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 25%;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#submitTask{
+    width:200px;
+    border-radius: 25px;
+}
+
+.inputField{
+    padding: 5px;
+    margin: 5px;
+}
