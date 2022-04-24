@@ -4,12 +4,63 @@ body {
     color: aliceblue;
 }
 
+#submitTask{
+    background-color: #2b7977;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:200px;
+    border-radius: 25px;
+}
+
+.green-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.red-button {
+    background-color: #af4c4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#header{
+    display: flex;
+    flex-basis: 75%;
+}
+
 .light-text{
     color: aliceblue;
 }
 
 .isDone{
-    background-color: #8bc34a;
+    background-color: #4CAF50;
+}
+
+.adSpot{
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: aqua;
+    justify-content: center;
+    margin-left: 5em;
 }
 
 
@@ -18,7 +69,15 @@ body {
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
-    margin-right: 25%;
+    flex-basis: 65%
+}
+
+.inputBig{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
 }
 
 .submitButton{
@@ -27,10 +86,7 @@ body {
     padding: 1em;
 }
 
-#submitTask{
-    width:200px;
-    border-radius: 25px;
-}
+
 
 .inputField{
     padding: 5px;

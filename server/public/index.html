@@ -12,17 +12,21 @@
 </head>
 <body>
 
+
 <h1>Create New Task:</h1>
+<div id="header">
   <div class="inputRow">
-    <input type="text" id="taskName" class= "inputField" placeholder="Name of Task">
+    <input type="text" id="taskName" class= "inputField" placeholder="Task">
     <input type="text" id="personName" class= "inputField" placeholder="Person Responsible">
-    <input type="text" id="taskDescription" class= "inputField input-group input-group-lg" placeholder="Description">
-    <input type="text" id="taskHelpfulNotes" class= "inputField input-group input-group-lg" placeholder="Helpful Notes">
-  </div>    
-  
+    <input type="text" id="taskDescription" class= "inputField inputBig" placeholder="Description">
+    <input type="text" id="taskHelpfulNotes" class= "inputField inputBig" placeholder="Helpful Notes">
+  </div>
+  <div class="adSpot"><h1>Your Ad Here</h1></div>
+</div> 
   <div class="submitButton">
     <button id="submitTask" onClick="submitButtonAudio.play();">Submit Task</button>
   </div>
+
 <h1>To Do:</h1>
   <table class="table light-text">
       <thead>

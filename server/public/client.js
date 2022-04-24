@@ -11,13 +11,13 @@ function onReady(){
 }
 
 const submitButtonAudio = new Audio();
-submitButtonAudio.src = './button-30.mp3'
+submitButtonAudio.src = './audio/button-30.mp3'
 
 const deleteButtonAudio = new Audio();
-deleteButtonAudio.src = './explosion-02.mp3'
+deleteButtonAudio.src = './audio/explosion-02.mp3'
 
 const completeButtonAudio = new Audio();
-completeButtonAudio.src = './applause-8.mp3'
+completeButtonAudio.src = './audio/applause-8.mp3'
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -68,13 +68,13 @@ function renderTasks(listOfTasks) {
                 <td>${task.description}</td>
                 <td>${task.helpful_notes}</td>
                 <td id="${task.id}complete">no</td>
-                <td><button class="completeButton" onClick="completeButtonAudio.play();">Complete</button></td>
-                <td><button class="deleteButton" onClick="deleteButtonAudio.play();" >Delete</button></td>
+                <td><button class="completeButton green-button" onClick="completeButtonAudio.play();">Complete</button></td>
+                <td><button class="deleteButton red-button" onClick="deleteButtonAudio.play();" >Delete</button></td>
             </tr>`
             );
         if(task.complete===true){
             $(`#${task.id}`).addClass('isDone');
-            $(`#${task.id}complete`).text('✅');
+            $(`#${task.id}complete`).text('✔️');
         }
     }
     $('#taskName').val('');
