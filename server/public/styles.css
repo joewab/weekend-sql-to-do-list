@@ -18,7 +18,7 @@ body {
 }
 
 .green-button {
-    background-color: #4CAF50;
+    background-color: #50a14d;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -29,7 +29,7 @@ body {
   }
 
 .red-button {
-    background-color: #af4c4c;
+    background-color:#a43438;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -49,7 +49,7 @@ body {
 }
 
 .isDone{
-    background-color: #4CAF50;
+    background-color: #50a14d;
 }
 
 .adSpot{
@@ -58,9 +58,10 @@ body {
     border-radius: 13px;
     border-style: dashed;
     border-width: 5px;
-    border-color: aqua;
+    border-color: #7f98ae;
     justify-content: center;
-    margin-left: 5em;
+    margin-left: 3em;
+    padding: 1em
 }
 
 
