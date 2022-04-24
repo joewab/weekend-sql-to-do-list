@@ -56,10 +56,8 @@ function getTasks() {
 
 
 function renderTasks(listOfTasks) {
-    // Empty previous data
     $('#taskTableBody').empty();
     console.log(listOfTasks);
-    // Add all songs to table
     for (let task of listOfTasks) {
         $('#taskTableBody').append(`
             <tr id="${task.id}" data-id="${task.id}" data-isDone="${task.complete}">
@@ -136,3 +134,12 @@ function updateTask(){
       console.log(error);
     })
   }
+
+
+
+
+
+
+
+
+
