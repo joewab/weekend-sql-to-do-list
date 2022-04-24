@@ -7,8 +7,21 @@ function onReady(){
     $(document).on ('click', '.deleteButton', deleteTask);
     $(document).on ('click', '.completeButton', updateTask);
     $('#submitTask').on ('click', postTask);
+
     getTasks();
+
+//     $('#explosion').hide();
+//     $(document).on ('click', '.deleteButton', showExplosion);
 }
+
+// I tried to have an explosion gif show when the delete button is pressed
+// but then I couldn't get it to go away. Or it went away right away and 
+// was impossible to see...
+//
+// function showExplosion(){
+//     $('#explosion').show();
+//     // $('#explosion').hide();
+// } 
 
 const submitButtonAudio = new Audio();
 submitButtonAudio.src = './audio/button-30.mp3'

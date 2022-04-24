@@ -4,6 +4,10 @@ body {
     color: aliceblue;
 }
 
+/* #explosion{
+    float: inline-end;
+} */
+
 #submitTask{
     background-color: #2b7977;
     border: none;
@@ -61,7 +65,9 @@ body {
     border-color: #7f98ae;
     justify-content: center;
     margin-left: 3em;
-    padding: 1em
+    padding: 1em;
+    width: 25%;
+    
 }
 
 
@@ -86,8 +92,6 @@ body {
     justify-content: center;
     padding: 1em;
 }
-
-
 
 .inputField{
     padding: 5px;

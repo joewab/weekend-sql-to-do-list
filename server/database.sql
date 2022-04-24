@@ -10,7 +10,7 @@ CREATE TABLE "tasks" (
 INSERT INTO "tasks"
 ("task", "person_responsible", "description", "helpful_notes", "complete") 
 VALUES
-('Dishes', 'Larry', 'wash the dang dishes Larry', 'new sponges are under the sink', false),
-('Vaccuming', 'Larry', 'Vaccuum the living room plz', 'clean the filter after', false),
-('Cocktails', 'Fred', 'make me a cocktail', 'I dont like that new gin you buy', false),
-('Shopping', 'Edna', 'restock the fridge', 'theres some cash in the drawer', false);
+('Zebra hunt', 'Jimmy', 'find all the zebras!', 'they are not hidden very well', true),
+('Grease up Kelly', 'Kelly', 'Kelly, you have to grease yourself if youre gonna get through that hole', 'the grease tastes pretty good too!', false),
+('Fix bathroom', 'Varathor', 'bathrm iz broke fix plzzz', 'dont use your sword to fix it, it doesnt fix everything Varathor', false),
+('Floor cleaning', 'Eddie', 'clean the fire off the floor', 'use water to clean the fire off the floor', false);
